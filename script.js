@@ -14,5 +14,4 @@ function start() {
     counter++;
 
     setTimeout(start, 1000);
-
 }
