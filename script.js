@@ -9,6 +9,7 @@ function start() {
     console.log("start");
 
     array.unshift(counter);
+    array.splice(9);
     console.log(array);
     counter++;
 
