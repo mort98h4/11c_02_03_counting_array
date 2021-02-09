@@ -8,8 +8,9 @@ let counter = 0;
 function start() {
     console.log("start");
 
+    array.unshift(counter);
+    console.log(array);
     counter++;
-    console.log(counter);
 
     setTimeout(start, 1000);
 
